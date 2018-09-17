@@ -13,31 +13,23 @@
  *
  * @package WordPress
  */
- 
- 
 define('WP_REDIS_HOST', 'nb-ds-wp-install.rra1gz.ng.0001.use1.cache.amazonaws.com');
-
+ 
+define('WP_HOME','http://toptendentalplans.com/');
+define('WP_SITEURL','http://toptendentalplans.com/');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-
-
 define('DB_NAME', 'NBDSWPAurora');
-
 /** MySQL database username */
 define('DB_USER', 'NB_DS_WP');
-
 /** MySQL database password */
 define('DB_PASSWORD', 'Dental845');
-
 /** MySQL hostname */
 define('DB_HOST', 'nb-ds-wp-aurora.c7lhjhsmyzki.us-east-1.rds.amazonaws.com');
-
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
-
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -55,9 +47,7 @@ define('AUTH_SALT',        '5rn)hSSAt=smhfqhxFNh8YOuA|S]r=o5.gq%l21-a^Jtv|-J|/#[
 define('SECURE_AUTH_SALT', 'Adz#[6@PI*SbH1]s@+pm=x-.s&|Z7K?6Z<fQpfEfOzH>-Y<~[OC)wHg^|xg?;ons');
 define('LOGGED_IN_SALT',   'j+TG%|}hFjhAPWnIImXdm-S<_<xVvp]P.Fg6x@x,tkCscu@bIL@RL!@96<QDI--1');
 define('NONCE_SALT',       '<aKgO#qV:w><)HLX*~^dGJ&4E)7G(3fP3l,|sk2R`#k^@V^wv*DEm@T,QOk!h-9Y');
-
 /**#@-*/
-
 /**
  * WordPress Database Table prefix.
  *
@@ -65,7 +55,6 @@ define('NONCE_SALT',       '<aKgO#qV:w><)HLX*~^dGJ&4E)7G(3fP3l,|sk2R`#k^@V^wv*DE
  * prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_';
-
 /**
  * For developers: WordPress debugging mode.
  *
@@ -74,12 +63,9 @@ $table_prefix  = 'wp_';
  * in their development environments.
  */
 define('WP_DEBUG', false);
-
 /* That's all, stop editing! Happy blogging. */
-
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
-
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
